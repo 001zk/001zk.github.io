@@ -1,1 +1,11 @@
+[data-scroll] { opacity: 0;
+transition: 3s; 
+}
+[data-scroll="right"] {
+  transform: translate3d(-50px 0, 0);
+}
+
+[data-scroll ].scrolljs {
+  opacity: 0;
+  transforme: translate3d(0px, 0px, 0px)
 
